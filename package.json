@@ -1,0 +1,19 @@
+{
+  "name": "easy-hypixelapi",
+  "version": "0.0.1",
+  "description": "An easy way to access the HypixelAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErrorMessage404/Easy-HypixelAPI.git"
+  },
+  "author": "Error",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErrorMessage404/Easy-HypixelAPI/issues"
+  },
+  "homepage": "https://github.com/ErrorMessage404/Easy-HypixelAPI#readme"
+}
