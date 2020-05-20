@@ -1,4 +1,4 @@
 *.DS_Store
 *README.html
 *README_cache/
-./node_modules
+node_modules/
