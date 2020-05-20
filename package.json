@@ -18,5 +18,12 @@
   "homepage": "https://github.com/ErrorMessage404/Easy-HypixelAPI#readme",
   "dependencies": {
     "cross-fetch": "^3.0.4"
-  }
+  },
+  "keywords": [
+      "hypixel",
+      "minecraft",
+      "hypixelapi",
+      "easy",
+      "nodejs"
+  ]
 }
