@@ -6,21 +6,18 @@ An easy way to utilize the HypixelAPI in node.js
 ## Install
 
 ```sh
-npm install hypixie
+npm install easy-hypixelapi
 ```
 
 ## Usage
 
 ```js
-const hypixie = require("hypixie");
+const HypixelAPI = require("easy-hypixelapi");
 
-(async () => {
-	const { displayname } = await hypixie("player", {
-		uuid: "56da43a4-088d-4a76-82b6-dd431535015e",
-		key: "some api key"
-	});
+const Hypixel = new HypixelAPI(/* YOUR HYPIXEL API KEY */)
 
-	console.log(displayname);
-	//=> "Richienb"
-})();
+let check = await Hypixel.key().then(res => { return res })
+
+console.log(check)
+
 ```
